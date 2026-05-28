@@ -5,6 +5,9 @@ body {
     box-sizing: border-box;
     background-color: #593bff;
     text-align: center;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .container {
@@ -44,8 +47,14 @@ body {
 }
 
 ul{
-   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
+@keyframes myAnimation {
+    0% { background-color: #f53319; }
+    50% { background-color: #206ad1; }
+    75% { background-color: #f32f28; }
+    100% { background-color: #206ad1; }
+}
