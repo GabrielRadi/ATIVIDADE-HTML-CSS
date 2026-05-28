@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'Comic Neue', sans-serif; 
     margin: 0;
     padding: 5;
@@ -13,12 +13,11 @@
     grid-column: span 2;
     gap: 20px;
     justify-content: space-around;
-
-    width: 1000px;
-    height: 1000px;
-    padding: 20px;
+    background-color: #5f2f04;
+    width: auto;
+    height: auto;
     position: relative;
-    border: 30px solid #894001;
+    border: 30px solid #321801;
 }
 
 .box1 {
